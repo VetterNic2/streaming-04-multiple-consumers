@@ -1,4 +1,5 @@
 """
+Nicolas Vetter: M4 Streaming Data
 
 Creates and sends a task message to the queue each execution.
 This process runs and finishes. 

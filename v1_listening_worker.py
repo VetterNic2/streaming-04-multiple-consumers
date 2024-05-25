@@ -1,4 +1,5 @@
 """
+Nicolas Vetter: M4 Streaming Data
 
 Listens for task messages on the queue.
 This process runs continously. 
