@@ -61,4 +61,5 @@ See a running example with at least 3 concurrent process windows here:
 
 # Mid-Process Running 2 consumers/ 1 Producer(SUCCESS!!)
 
-![Alt text]('Mid Stream.png' "Verification")
+![Alt text](Mid Stream.png "Verification")
+
