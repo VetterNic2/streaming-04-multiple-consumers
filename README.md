@@ -1,4 +1,4 @@
-# streaming-04-multiple-consumers
+# streaming-04-multiple-consumers - Nic Vetter M4
 
 > Use RabbitMQ to distribute tasks to multiple workers
 
@@ -12,34 +12,34 @@ One process will create task messages. Multiple worker processes will share the 
 1. View / Command Palette - then Python: Select Interpreter
 1. Select your conda environment. 
 
-## Read
+## Read - Complete NV
 
 1. Read the [RabbitMQ Tutorial - Work Queues](https://www.rabbitmq.com/tutorials/tutorial-two-python.html)
 1. Read the code and comments in this repo.
 
-## RabbitMQ Admin 
+## RabbitMQ - Complete NV
 
 RabbitMQ comes with an admin panel. When you run the task emitter, reply y to open it. 
 
 (Python makes it easy to open a web page - see the code to learn how.)
 
-## Execute the Producer
+## Execute the Producer - Complete NV
 
 1. Run emitter_of_tasks.py (say y to monitor RabbitMQ queues)
 
 Explore the RabbitMQ website.
 
-## Execute a Consumer / Worker
+## Execute a Consumer / Worker - Complete NV
 
 1. Run listening_worker.py
 
 Will it terminate on its own? How do you know? 
 
-## Ready for Work
+## Ready for Work - Complete NV
 
 1. Use your emitter_of_tasks to produce more task messages.
 
-## Start Another Listening Worker 
+## Start Another Listening Worker - Complete NV
 
 1. Use your listening_worker.py script to launch a second worker. 
 
@@ -58,3 +58,7 @@ Which worker gets which tasks?
 ## Screenshot
 
 See a running example with at least 3 concurrent process windows here:
+
+# Mid-Process Running 2 consumers/ 1 Producer(SUCCESS!!)
+
+![Alt text](Vetter_screenshot.png "In-Process Verification")
