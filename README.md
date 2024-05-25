@@ -5,7 +5,7 @@
 One process will create task messages. Multiple worker processes will share the work. 
 
 
-## Before You Begin
+## Before You Begin - Complete NV
 
 1. Fork this starter repo into your GitHub.
 1. Clone your repo down to your machine.
@@ -61,4 +61,4 @@ See a running example with at least 3 concurrent process windows here:
 
 # Mid-Process Running 2 consumers/ 1 Producer(SUCCESS!!)
 
-![Alt text](Vetter_screenshot.png "In-Process Verification")
+![Alt text](Mid Stream.png "In-Process Verification")
